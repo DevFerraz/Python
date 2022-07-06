@@ -4,7 +4,7 @@ num = int(input('Digite o número que deseja ver por extenso (1 a 20): '))
 
 for c in range(len(extenso)):
     if c == num:
-        print(extenso[num])
+        print(f'Voce digitou o numero {extenso[num]}')
 if num < 0 or num > 20:
     print('Número inválido! ')
         
