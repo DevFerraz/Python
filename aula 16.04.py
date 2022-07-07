@@ -8,8 +8,8 @@
 #        print(f'{lista[pos]:.<30}', end = ' ')
 #    if pos % 2 == 1:
 #        print(f'R${lista[pos]:.2f}')
-lista = ('Lápis', 'Caneta', 'Caderno', 'Livro de Matemática', 
-         'Compasso', 'Esquadro', 'Estojo', 'Mochila')
+lista = ('Lápis ', 'Caneta ', 'Caderno ', 'Livro de Matemática ', 
+         'Compasso ', 'Esquadro ', 'Estojo ', 'Mochila ')
 preco = (float(input('Digite o valor do produto "Lápis": ')), float(input('Digite o valor do produto "Caneta": ')),
          float(input('Digite o valor do produto "Caderno": ')), float(input('Digite o valor do produto "Livro de Matemática": ')),
          float(input('Digite o valor do produto "Compasso": ')), float(input('Digite o valor do produto "Esquadro": ')),
